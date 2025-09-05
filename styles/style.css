@@ -188,6 +188,23 @@ button {
 
 .article {
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--grey-light);
+  border-radius: 2px;
+  padding: 1rem;
+  gap: 10px;
+}
+
+.article__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.article__row > .article {
+  flex: 1;
 }
 
 .article__title {
@@ -242,6 +259,10 @@ button {
   display: flex;
   flex-direction: column;
   min-width: 350px;
+}
+
+.sidebar > .article {
+  flex-direction: row;
 }
 
 /* Footer */
