@@ -100,7 +100,21 @@ p {
 
 /* Buttons */
 
-/* INSERT BUTTON STYLES HERE */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn__donate {
+  background-color: var(--orange-dark);
+  color: var(--white);
+}
+
+.btn__volunteer {
+  background-color: var(--grey-light);
+  color: var(--orange-dark);
+}
 
 /* Content */
 
