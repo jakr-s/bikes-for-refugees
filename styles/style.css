@@ -73,7 +73,7 @@ p {
 }
 
 .navigation__item {
-  padding: 0.5rem 0;
+  padding: 0.5rem 0.625rem;
 }
 
 .navigation__link {
@@ -94,14 +94,14 @@ p {
   display: inline-block;
   height: 0;
   width: 0;
-  border: 6px solid var(--white);
+  border: 0.375rem solid var(--white);
   border-left-color: var(--orange-dark);
 }
 
 /* Buttons */
 
 button {
-  padding: 8px 12px;
+  padding: 0.5rem 0.75rem;
   border: none;
   border-radius: 3px;
 }
@@ -144,6 +144,11 @@ button {
   max-width: var(--content-width);
   height: 320px;
   color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  margin-bottom: 40px;
 }
 
 .hero h1 {
