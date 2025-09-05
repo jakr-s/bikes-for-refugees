@@ -83,6 +83,11 @@ p {
   text-decoration: none;
 }
 
+.navigation__link:hover,
+.navigation__link:focus {
+  color: var(--orange-dark);
+}
+
 /* Text styles */
 
 .text-highlight {
@@ -108,12 +113,24 @@ button {
 
 .btn__donate {
   background-color: var(--orange-dark);
-  color: var(--white);
+  color: var(--grey-light);
+}
+
+.btn__donate:hover,
+.btn__donate:focus {
+  background-color: var(--grey-light);
+  color: var(--orange-dark);
 }
 
 .btn__volunteer {
   background-color: var(--grey-light);
   color: var(--orange-dark);
+}
+
+.btn__volunteer:hover,
+.btn__volunteer:focus {
+  background-color: var(--orange-dark);
+  color: var(--grey-light);
 }
 
 /* Content */
